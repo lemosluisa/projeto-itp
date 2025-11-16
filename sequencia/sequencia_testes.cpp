@@ -2,7 +2,6 @@
 #include "../doctest.h"
 #include "sequencia.h"
 
-
 TEST_CASE("Testa a criação de uma sequência de inteiros (sem nenhum elemento)") {
     Sequencia<int> seq;
     CHECK(seq.obterTamanho() == 0);
